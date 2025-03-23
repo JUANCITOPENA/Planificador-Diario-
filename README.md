@@ -114,7 +114,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.m
 
 ## 📞 Contacto
 
-Juan Carlos Peña - [@JUANCITOPENA](https://github.com/JUANCITOPENA)
+Juacito Peña - [@JUANCITOPENA](https://github.com/JUANCITOPENA)
 
 Link del Proyecto: [https://github.com/JUANCITOPENA/Planificador-Diario-](https://github.com/JUANCITOPENA/Planificador-Diario-)
 
