@@ -71,6 +71,7 @@ Este proyecto es ideal para quienes están aprendiendo desarrollo web, ya que in
 - 🌙 Implementación de modo oscuro
 - 🔗 Sistema para compartir eventos con otros usuarios
 - 📊 Estadísticas de productividad y cumplimiento de tareas
+- 🔔 Envio de Notificaciones de Alertas.
 
 ## 🤝 Contribuir
 
