@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="shortcut icon" href="https://cdn.iconscout.com/icon/premium/png-256-thumb/todo-list-2058735-1738002.png?f=webp&w=256" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planificador Diario ⏰</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- jsPDF and autotable (from CDN) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.20/jspdf.plugin.autotable.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1><i class="far fa-calendar-alt"></i> Planificador Diario ⏰</h1>
+        <nav>
+            <button id="btn-prev-week"><i class="fas fa-chevron-left"></i></button>
+            <span id="current-week">Semana X, Año YYYY</span>
+            <button id="btn-next-week"><i class="fas fa-chevron-right"></i></button>
+            <button id="btn-add-event"><i class="fas fa-plus"></i> Agregar Evento</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="calendar">
+            <div class="weekdays">
+                <div>Lun</div>
+                <div>Mar</div>
+                <div>Mié</div>
+                <div>Jue</div>
+                <div>Vie</div>
+                <div>Sáb</div>
+                <div>Dom</div>
+            </div>
+            <div class="days" id="days-container"></div>
+        </section>
+
+        <section id="search-and-filter">
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" id="search-input" placeholder="Buscar eventos...">
+            </div>
+            <div class="filter-bar">
+                <label for="start-date">Desde:</label>
+                <input type="date" id="start-date">
+                <label for="end-date">Hasta:</label>
+                <input type="date" id="end-date">
+                <button id="btn-filter"><i class="fas fa-filter"></i> Filtrar</button>
+                <button id="btn-reset-filter"><i class="fas fa-times"></i> Reset</button>
+            </div>
+        </section>
+
+        <section id="event-details">
+            <h2><i class="fas fa-info-circle"></i> Detalles del Evento / Resultados</h2>
+            <div id="event-details-content">
+                <!-- Detalles del evento o resultados de búsqueda/filtro -->
+            </div>
+        </section>
+
+        <section id="pending-tasks-report">
+            <h2><i class="fas fa-tasks"></i> Tareas Pendientes</h2>
+            <button id="btn-generate-pdf"><i class="fas fa-file-pdf"></i> Generar PDF</button>
+            <div id="pending-tasks-list">
+                <!-- Lista de tareas pendientes -->
+            </div>
+        </section>
+
+
+        <!-- Modal para Agregar/Editar Evento (inicialmente oculto) -->
+        <section id="modal-add-event" class="modal">
+            <div class="modal-content">
+                <span class="close-button">×</span>
+                <h2><i class="fas fa-calendar-plus"></i> <span id="modal-title">Agregar Evento</span></h2>
+                <form id="add-event-form">
+                    <input type="hidden" id="event-id">
+                    <label for="event-title"><i class="fas fa-heading"></i> Título:</label>
+                    <input type="text" id="event-title" required><br>
+                    <label for="event-date"><i class="fas fa-calendar-day"></i> Fecha:</label>
+                    <input type="date" id="event-date" required><br>
+                    <label for="event-time"><i class="fas fa-clock"></i> Hora:</label>
+                    <input type="time" id="event-time"><br>
+                    <label for="event-description"><i class="fas fa-align-left"></i> Descripción:</label>
+                    <textarea id="event-description"></textarea><br>
+                    <label for="event-note"><i class="fas fa-sticky-note"></i> Nota (Blog de Notas):</label>
+                    <textarea id="event-note"></textarea><br>
+                    <label for="event-type"><i class="fas fa-tag"></i> Tipo:</label>
+                    <select id="event-type">
+                        <option value="task">Tarea</option>
+                        <option value="reminder">Recordatorio</option>
+                        <option value="event">Evento</option>
+                    </select><br>
+                    <button type="submit" id="save-event-button"><i class="fas fa-save"></i> Guardar</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Modal de Alerta (inicialmente oculto) -->
+        <div id="alert-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button" id="alert-close-button">×</span>
+                <h2><i class="fas fa-bell"></i> Alerta de Evento</h2>
+                <p id="alert-message"></p>
+                <audio id="alert-sound" src="ruta/a/tu/sonido.mp3"></audio> <!-- Reemplaza con la ruta a tu sonido -->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2023 Planificador Diario ⏰</p>
+    </footer>
+
+
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
