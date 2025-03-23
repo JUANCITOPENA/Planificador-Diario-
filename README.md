@@ -1,10 +1,10 @@
-# 📆 Gestor de Eventos y Tareas Personales 📝
+# 📆 Planificador Diario: Gestor de Eventos y Tareas 📝
 
 ## 📋 Descripción del Proyecto
 
-Este proyecto es un **Gestor de Eventos y Tareas Personales** que funciona directamente en el navegador. Es una aplicación web interactiva diseñada para ayudarte a organizar tu tiempo, administrar tus eventos y realizar un seguimiento de tus tareas pendientes.
+El **Planificador Diario** es una aplicación web interactiva diseñada para ayudarte a organizar tu tiempo, administrar tus eventos y realizar un seguimiento de tus tareas pendientes. Funciona directamente en el navegador, sin necesidad de instalación.
 
-La aplicación te permite visualizar tus compromisos en formato de calendario semanal, agregar eventos detallados, establecer tareas con fechas límite, recibir alertas de eventos próximos y generar reportes en PDF de las tareas pendientes.
+Esta herramienta te permite visualizar tus compromisos en formato de calendario semanal, agregar eventos detallados, establecer tareas con fechas límite, recibir alertas de eventos próximos y generar reportes en PDF de las tareas pendientes.
 
 ## ✨ Características Principales
 
@@ -19,7 +19,7 @@ La aplicación te permite visualizar tus compromisos en formato de calendario se
 
 ## 🚀 Cómo Empezar
 
-1. Clona este repositorio: `git clone https://github.com/tu-usuario/gestor-eventos-tareas.git`
+1. Clona este repositorio: `git clone https://github.com/JUANCITOPENA/Planificador-Diario-.git`
 2. Abre el archivo `index.html` en tu navegador
 3. Navega por el calendario usando los botones de semana anterior y siguiente
 4. Agrega tu primer evento haciendo clic en el botón "Agregar Evento"
@@ -27,7 +27,7 @@ La aplicación te permite visualizar tus compromisos en formato de calendario se
 
 ## 🖼️ Capturas de Pantalla
 
-*(Añade aquí capturas de pantalla de tu aplicación)*
+![Interfaz del Planificador Diario](imagen_calendar.jpg)
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -67,19 +67,19 @@ Este proyecto es ideal para quienes están aprendiendo desarrollo web, ya que in
 ## 🔄 Futuras Mejoras
 
 - 🔄 Sincronización con servicios en la nube
-- 📱 Versión para dispositivos móviles
-- 🌙 Modo oscuro
-- 🔗 Compartir eventos con otros usuarios
-- 📊 Estadísticas de productividad
+- 📱 Optimización para dispositivos móviles
+- 🌙 Implementación de modo oscuro
+- 🔗 Sistema para compartir eventos con otros usuarios
+- 📊 Estadísticas de productividad y cumplimiento de tareas
 
 ## 🤝 Contribuir
 
 Las contribuciones son bienvenidas. Para contribuir:
 
 1. Haz un Fork del proyecto
-2. Crea una rama para tu característica (`git checkout -b feature/AmazingFeature`)
-3. Haz commit de tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Haz push a la rama (`git push origin feature/AmazingFeature`)
+2. Crea una rama para tu característica (`git checkout -b feature/NuevaCaracteristica`)
+3. Haz commit de tus cambios (`git commit -m 'Añadir nueva característica'`)
+4. Haz push a la rama (`git push origin feature/NuevaCaracteristica`)
 5. Abre un Pull Request
 
 ## 📝 Licencia
@@ -88,10 +88,10 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.m
 
 ## 📞 Contacto
 
-Tu Nombre - [@tu_twitter](https://twitter.com/tu_twitter) - email@ejemplo.com
+Juan Carlos Peña - [@JUANCITOPENA](https://github.com/JUANCITOPENA)
 
-Link del Proyecto: [https://github.com/tu-usuario/gestor-eventos-tareas](https://github.com/tu-usuario/gestor-eventos-tareas)
+Link del Proyecto: [https://github.com/JUANCITOPENA/Planificador-Diario-](https://github.com/JUANCITOPENA/Planificador-Diario-)
 
 ---
 
-¡Organiza tu vida y mejora tu productividad con este Gestor de Eventos y Tareas Personales! 🚀
+¡Organiza tu vida y mejora tu productividad con este Planificador Diario! 🚀
