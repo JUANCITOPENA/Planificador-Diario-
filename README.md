@@ -1,10 +1,14 @@
 # 📆 Planificador Diario: Gestor de Eventos y Tareas 📝
 
-## 📋 Descripción del Proyecto
+## 📋 Descripción del Proyecto: Planificador Diario
 
-El **Planificador Diario** es una aplicación web interactiva diseñada para ayudarte a organizar tu tiempo, administrar tus eventos y realizar un seguimiento de tus tareas pendientes. Funciona directamente en el navegador, sin necesidad de instalación.
+El **Planificador Diario** es una aplicación web interactiva diseñada como una herramienta de aprendizaje para principiantes y desarrolladores en etapa inicial. Este proyecto tiene como objetivo enseñar los fundamentos de tecnologías web esenciales como **HTML**, **CSS** y **JavaScript puro** antes de dar el salto a frameworks populares como React, Vue, Angular o Next.js.
 
-Esta herramienta te permite visualizar tus compromisos en formato de calendario semanal, agregar eventos detallados, establecer tareas con fechas límite, recibir alertas de eventos próximos y generar reportes en PDF de las tareas pendientes.
+### Objetivos del Proyecto
+
+1. **Aprender los conceptos fundamentales:**
+   - Construcción de aplicaciones sin depender de frameworks, permitiendo una comprensión profunda de cómo funcionan el DOM, los eventos y el manejo del estado.
+   - Uso de **JavaScript puro** para tareas dinámicas, como la manipulación del DOM y la interacción del usuario.
 
 ## ✨ Características Principales
 
