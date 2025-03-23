@@ -52,7 +52,12 @@ Al estar construido sin frameworks como React, Vue.js, Angular o Next.js, este p
 
 ## 🖼️ Capturas de Pantalla
 
-![Interfaz del Planificador Diario](imagen_calendar.jpg)
+![Interfaz del Planificador Diario](images/Screenshot_251.png)
+![Interfaz del Planificador Diario](images/Screenshot_252.png)
+![Interfaz del Planificador Diario](images/Screenshot_253.png)
+![Interfaz del Planificador Diario](images/Screenshot_254.png)
+![Interfaz del Planificador Diario](images/Screenshot_255.png)
+
 
 ## 🛠️ Tecnologías Utilizadas
 
