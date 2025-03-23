@@ -4,32 +4,32 @@
 
 El **Planificador Diario** es una aplicación web interactiva diseñada como una herramienta de aprendizaje para principiantes y desarrolladores en etapa inicial. Este proyecto tiene como objetivo enseñar los fundamentos de tecnologías web esenciales como **HTML**, **CSS** y **JavaScript puro** antes de dar el salto a frameworks populares como React, Vue, Angular o Next.js.
 
-### ✨ Tecnologías y Aprendizaje ✨
+## ✨ Tecnologías y Aprendizaje ✨
 
 Este proyecto es una excelente oportunidad para aprender y consolidar los fundamentos del desarrollo web front-end, ya que está construido exclusivamente con tecnologías web puras:
-- **HTML5: Estructura semántica y accesible del contenido de la aplicación. Aprenderás sobre la organización de elementos, formularios, manejo de fechas y la creación de interfaces de usuario interactivas.
-- **CSS3: Diseño visual atractivo y adaptable a diferentes dispositivos (responsive design). Dominarás conceptos como Flexbox, Grid Layout, transiciones, animaciones, sombras, bordes redondeados, manejo de fuentes y colores, y la creación de una experiencia de usuario (UI/UX) moderna.
-- **JavaScript (ES6+) Puro: Lógica de la aplicación, manipulación del DOM, gestión de eventos, almacenamiento local de datos (localStorage), manejo de fechas y horas, creación dinámica de elementos HTML, y generación de reportes en PDF (con la ayuda de la librería jsPDF). Sin ningún framework o librería de alto nivel.
 
-### 💪 Fundamentos Sólidos, Cero Dependencias 💪
+- 🌐 **HTML5:** Estructura semántica y accesible del contenido de la aplicación.  
+  ✏️ Aprenderás sobre la organización de elementos, formularios, manejo de fechas y la creación de interfaces de usuario interactivas.
+
+- 🎨 **CSS3:** Diseño visual atractivo y adaptable a diferentes dispositivos (responsive design).  
+  🖌️ Dominarás conceptos como Flexbox, Grid Layout, transiciones, animaciones, sombras, bordes redondeados, manejo de fuentes y colores, y la creación de una experiencia de usuario (UI/UX) moderna.
+
+- ⚙️ **JavaScript (ES6+) Puro:** Lógica de la aplicación, manipulación del DOM, gestión de eventos, almacenamiento local de datos (**localStorage**), manejo de fechas y horas, creación dinámica de elementos HTML, y generación de reportes en PDF (con la ayuda de la librería `jsPDF`).  
+  🚫 Sin ningún framework o librería de alto nivel.
+
+## 💪 Fundamentos Sólidos, Cero Dependencias 💪
 
 Al estar construido sin frameworks como React, Vue.js, Angular o Next.js, este proyecto te obliga a comprender a fondo cómo funciona la web a un nivel más bajo. Aprenderás:
 
-Manipulación del DOM: Cómo seleccionar, crear, modificar y eliminar elementos HTML directamente con JavaScript.
+- 📄 **Manipulación del DOM:** Cómo seleccionar, crear, modificar y eliminar elementos HTML directamente con JavaScript.
+- 🎯 **Gestión de Eventos:** Cómo responder a las interacciones del usuario (clics, escritura, cambios de fecha, etc.).
+- 💾 **Almacenamiento Local:** Cómo guardar y recuperar datos en el navegador del usuario usando **localStorage**.
+- ⏳ **Programación Asíncrona:** Cómo trabajar con eventos que no ocurren inmediatamente (como las alertas).
+- 📅 **Algoritmos de Calendario:** Cómo calcular fechas, semanas, meses y manejar la lógica de un calendario.
+- 📱 **Diseño Responsivo (Responsive Design):** Cómo crear interfaces que se adapten a diferentes tamaños de pantalla usando CSS puro (**media queries**, Flexbox, Grid).
+- ✅ **Buenas Prácticas:** Código limpio, modular, comentado y fácil de mantener.
+- 🗂️ **Simulación de Base de Datos:** Creación de un objeto para simular bases de datos.
 
-Gestión de Eventos: Cómo responder a las interacciones del usuario (clics, escritura, cambios de fecha, etc.).
-
-Almacenamiento Local: Cómo guardar y recuperar datos en el navegador del usuario usando localStorage.
-
-Programación Asíncrona: Cómo trabajar con eventos que no ocurren inmediatamente (como las alertas).
-
-Algoritmos de Calendario: Cómo calcular fechas, semanas, meses y manejar la lógica de un calendario.
-
-Diseño Responsivo (Responsive Design): Cómo crear interfaces que se adapten a diferentes tamaños de pantalla usando CSS puro (media queries, flexbox, grid).
-
-Buenas Prácticas: Código limpio, modular, comentado y fácil de mantener.
-
-Simulación de Base de Datos: Creación de objeto para simular base de datos.
 
 ## ✨ Características Principales
 
