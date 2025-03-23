@@ -4,17 +4,14 @@
 
 El **Planificador Diario** es una aplicación web interactiva diseñada como una herramienta de aprendizaje para principiantes y desarrolladores en etapa inicial. Este proyecto tiene como objetivo enseñar los fundamentos de tecnologías web esenciales como **HTML**, **CSS** y **JavaScript puro** antes de dar el salto a frameworks populares como React, Vue, Angular o Next.js.
 
-✨ Tecnologías y Aprendizaje ✨
+### ✨ Tecnologías y Aprendizaje ✨
 
 Este proyecto es una excelente oportunidad para aprender y consolidar los fundamentos del desarrollo web front-end, ya que está construido exclusivamente con tecnologías web puras:
+- **HTML5: Estructura semántica y accesible del contenido de la aplicación. Aprenderás sobre la organización de elementos, formularios, manejo de fechas y la creación de interfaces de usuario interactivas.
+- **CSS3: Diseño visual atractivo y adaptable a diferentes dispositivos (responsive design). Dominarás conceptos como Flexbox, Grid Layout, transiciones, animaciones, sombras, bordes redondeados, manejo de fuentes y colores, y la creación de una experiencia de usuario (UI/UX) moderna.
+- **JavaScript (ES6+) Puro: Lógica de la aplicación, manipulación del DOM, gestión de eventos, almacenamiento local de datos (localStorage), manejo de fechas y horas, creación dinámica de elementos HTML, y generación de reportes en PDF (con la ayuda de la librería jsPDF). Sin ningún framework o librería de alto nivel.
 
-HTML5: Estructura semántica y accesible del contenido de la aplicación. Aprenderás sobre la organización de elementos, formularios, manejo de fechas y la creación de interfaces de usuario interactivas.
-
-CSS3: Diseño visual atractivo y adaptable a diferentes dispositivos (responsive design). Dominarás conceptos como Flexbox, Grid Layout, transiciones, animaciones, sombras, bordes redondeados, manejo de fuentes y colores, y la creación de una experiencia de usuario (UI/UX) moderna.
-
-JavaScript (ES6+) Puro: Lógica de la aplicación, manipulación del DOM, gestión de eventos, almacenamiento local de datos (localStorage), manejo de fechas y horas, creación dinámica de elementos HTML, y generación de reportes en PDF (con la ayuda de la librería jsPDF). Sin ningún framework o librería de alto nivel.
-
-💪 Fundamentos Sólidos, Cero Dependencias 💪
+### 💪 Fundamentos Sólidos, Cero Dependencias 💪
 
 Al estar construido sin frameworks como React, Vue.js, Angular o Next.js, este proyecto te obliga a comprender a fondo cómo funciona la web a un nivel más bajo. Aprenderás:
 
